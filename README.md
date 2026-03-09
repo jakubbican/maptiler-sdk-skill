@@ -54,13 +54,41 @@ scripts/
 
 ## Usage
 
-Install as a Claude Code skill:
+### Claude Code
 
 ```bash
 claude skill install https://github.com/jakubbican/maptiler-sdk-skill
 ```
 
-Or reference `SKILL.md` directly in your AI agent system prompt.
+### Gemini CLI
+
+Add to your project's `GEMINI.md`:
+
+```bash
+curl -s https://raw.githubusercontent.com/jakubbican/maptiler-sdk-skill/main/SKILL.md >> GEMINI.md
+```
+
+### Cursor
+
+Add to your project's `.cursorrules`:
+
+```bash
+curl -s https://raw.githubusercontent.com/jakubbican/maptiler-sdk-skill/main/SKILL.md >> .cursorrules
+```
+
+Or create `.cursor/rules/maptiler-sdk.mdc` for the newer rules format.
+
+### Codex CLI
+
+Add to your project's `AGENTS.md`:
+
+```bash
+curl -s https://raw.githubusercontent.com/jakubbican/maptiler-sdk-skill/main/SKILL.md >> AGENTS.md
+```
+
+### Any agent / system prompt
+
+Reference `SKILL.md` directly from the raw GitHub URL, or copy its content into your agent's system prompt / context file.
 
 ## Version
 

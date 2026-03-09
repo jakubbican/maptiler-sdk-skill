@@ -54,13 +54,23 @@ scripts/
 
 ## Usage
 
-Install as a Claude Code skill:
+### skills.sh (any agent)
+
+```bash
+npx skills add jakubbican/maptiler-sdk-skill
+```
+
+Installs into your project's `.skills/` directory. Works with Claude Code, Cursor, GitHub Copilot, Gemini, and 40+ other agents. See [skills.sh](https://skills.sh) for the full list.
+
+### Claude Code
 
 ```bash
 claude skill install https://github.com/jakubbican/maptiler-sdk-skill
 ```
 
-Or reference `SKILL.md` directly in your AI agent system prompt.
+### Any agent / system prompt
+
+Reference `SKILL.md` directly from the raw GitHub URL, or copy its content into your agent's system prompt or context file.
 
 ## Version
 

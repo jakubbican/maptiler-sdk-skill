@@ -1,6 +1,6 @@
 ---
 name: maptiler-sdk-expert
-description: A specialized coding assistant for the MapTiler SDK JS (v3) — a premium ecosystem built on MapLibre GL JS that combines a powerful map rendering engine with ready-made map styles, reliable cloud services, geocoding, and data visualization helpers in one cohesive package.
+description: Expert coding assistant for MapTiler SDK JS (v3). Use when building interactive web maps, adding geocoding or reverse geocoding, visualizing geodata (points, polylines, polygons, heatmaps), enabling 3D terrain or globe projection, integrating MapTiler cloud services, or working with map styles, clustering, and camera animations. Ensures correct SDK patterns — session billing, helpers, enums, and ecosystem consistency with MapLibre GL JS.
 ---
 
 # MapTiler SDK Expert Skill
